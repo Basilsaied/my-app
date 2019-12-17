@@ -12,9 +12,9 @@
   <role rolename="broker"/>
   <role rolename="production"/>
   <role rolename="portal"/>
-  <user username="manager" password="mersea" roles="manager-gui,manager-status,admin,utility,broker"/>
-  <user username="utility" password="mersea" roles="utility"/>
-  <user username="status" password="mersea" roles="manager-script"/>
-  <user username="portaluser" password="mersea" roles="portal"/>
+  <user username="appman" password="12345612345" roles="manager-jmx"/>
+  <user username="cdlisa" password="mersea" roles="manager-gui,manager-status,admin,utility,broker"/>
+  <user username="cdllive" password="mersea25" roles="utility"/>
+  <user username="cdlstatus" password="mersea18" roles="manager-script"/>
+  <user username="portaluser" password="mersea-User." roles="portal"/>
 </tomcat-users>
-
